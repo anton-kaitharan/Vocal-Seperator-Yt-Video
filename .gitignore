@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+demucs_ext/
+venv/
+.env/
+
+# Audio files
+*.wav
+*.mp3
+
+# Output folders
+separated/
+downloads/
+
+# Temporary files
+input.wav
+output.wav
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# FFmpeg binaries (optional - if large)
+ffmpeg/
+ffmpeg/bin/*.exe
+
+# Models (VERY IMPORTANT - HUGE FILES)
+models/
+checkpoints/
+
+# VS Code
+.vscode/
+
+# Cache
+.cache/
