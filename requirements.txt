@@ -1,1 +1,6 @@
 yt-dlp==2025.3.31
+demucs
+torch
+torchaudio
+requests
+python-telegram-bot

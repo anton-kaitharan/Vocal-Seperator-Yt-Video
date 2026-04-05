@@ -41,3 +41,46 @@ checkpoints/
 
 # Cache
 .cache/
+
+# Virtual environment
+demucs_ext/
+
+# Demucs temp output
+separated/
+
+# Downloaded/processed audio files
+*_input.wav
+*_karoke.wav
+*.wav
+*.mp3
+*.opus
+*.webm
+*.m4a
+*.ogg
+
+# yt-dlp and ffmpeg (user downloads their own)
+yt-dlp.exe
+ffmpeg/
+
+# Demucs AI models (too large for git)
+models/
+
+# Runtime folders (auto-created)
+queue/
+processing/
+done/
+output/
+logs/
+
+# Bot and watcher config (contains token)
+config.py
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+
+# env files
+py.env
